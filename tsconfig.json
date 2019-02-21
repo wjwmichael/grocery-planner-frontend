@@ -1,0 +1,26 @@
+{
+  "types": [
+      "node"
+  ],
+  "compilerOptions": {
+      "allowJs": false,
+      "target": "ES2017",
+      "removeComments": false,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "noEmitOnError": true,
+      "inlineSources": true,
+      "inlineSourceMap": true,
+      "moduleResolution": "node",
+      "alwaysStrict": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs"
+  },
+  "include": [
+      "**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
